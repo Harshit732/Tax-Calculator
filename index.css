@@ -1,0 +1,295 @@
+
+.box{
+    border: 2px solid;
+    border-radius: 2px ;
+    margin-top : 10 px;
+    
+}
+.tooltip-icon{
+    border: 1px solid #C9D2DA;
+    position: absolute !important; 
+    z-index: 100;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+    line-height: 14px;
+    color: #C9D2DA;
+    
+
+    padding-left: 6px;
+    
+    
+}
+.form-wrapper{
+    width: calc(100vw - 1000px);
+    margin-top: 100px;
+    gap: 16px;
+    padding: 48px 24px 24px;
+    border: 1px solid #C9D2DA;
+    border-radius: 4px;
+    
+    
+}
+.submit-btn{
+    background-color: #6559F5 !important;
+}
+input[ type="text"]{
+    border-radius: 4px;
+    border: 1px solid #C9D2DA;
+    padding: 8px;
+}
+
+
+.question-tooltip{ 
+    
+    
+    background-color: #4C5D6B;
+    color: #fff;
+    font-size: 12px;
+    position: absolute !important;
+    border-radius: 4px;
+    
+
+    clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 10px), 
+    calc(50% + 10px) calc(100% - 10px),
+    50% 100%, 
+    calc(50% - 10px) calc(100% - 10px), 
+    0% calc(100% - 10px) 
+  );
+
+  padding: 8px;
+}
+#question-1{
+    right: 799px;
+}
+#question-2{
+    right: 852px;
+}
+#question-3{
+    right: 870px;
+}
+#question-4{
+    right: 752px;
+}
+
+
+
+
+
+
+.question-tooltip span{
+    margin: 12px; 
+    
+    
+}
+.error-icon{
+    border: 1px solid #C9D2DA;
+    position: absolute !important; 
+    z-index: 100;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+    line-height: 14px;
+    color: #C9D2DA;
+    
+
+    padding-left: 7px;
+    
+
+}
+
+
+
+#error-tooltip{
+    opacity: 0;
+    height: 50px;
+    width: 200px;
+    background-color: #4C5D6B;
+    color: #fff;
+    font-size: 12px;
+    position: absolute !important;
+    
+    right: -110px;
+    top: -50px;
+
+    clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 10px), 
+    calc(50% + 10px) calc(100% - 10px),
+    50% 100%, 
+    calc(50% - 10px) calc(100% - 10px), 
+    0% calc(100% - 10px) 
+  );
+
+  
+
+}
+#error-tooltip-2{
+    opacity: 0;
+    height: 50px;
+    width: 200px;
+    background-color: #4C5D6B;
+    color: #fff;
+    font-size: 12px;
+    position: absolute !important;
+    
+    right: -110px;
+    top: -50px;
+    padding: 10px;
+
+    clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 10px), 
+    calc(50% + 10px) calc(100% - 10px),
+    50% 100%, 
+    calc(50% - 10px) calc(100% - 10px), 
+    0% calc(100% - 10px) 
+  );
+
+}
+
+#error-tooltip-3{
+    opacity: 0;
+    height: 50px;
+    width: 200px;
+    background-color: #4C5D6B;
+    color: #fff;
+    font-size: 12px;
+    position: absolute !important;
+    
+    right: -110px;
+    top: -50px;
+    padding: 10px;
+
+    clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 10px), 
+    calc(50% + 10px) calc(100% - 10px),
+    50% 100%, 
+    calc(50% - 10px) calc(100% - 10px), 
+    0% calc(100% - 10px) 
+  );
+
+}
+
+#error-tooltip-4{
+    opacity: 0;
+    height: 50px;
+    width: 260px;
+    background-color: #4C5D6B;
+    color: #fff;
+    font-size: 12px;
+    position: absolute !important;
+    margin: 2px;
+    padding: 10px;
+    
+    right: -142px;
+    top: -54px;
+
+    clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 10px), 
+    calc(50% + 10px) calc(100% - 10px),
+    50% 100%, 
+    calc(50% - 10px) calc(100% - 10px), 
+    0% calc(100% - 10px) 
+  );
+
+}
+
+
+
+
+
+
+#income-error{
+    position: absolute;
+    display: none;
+    right: 550px;
+    top: 186px;
+
+}
+#extraincome-error{
+    position: absolute;
+    display: none;
+    top: 268px;
+    right: 550px;
+
+}
+#deduction-error{
+    position: absolute;
+    display: none;
+    top: 433px;
+    right: 550px;
+
+}
+#age-error{
+    position: absolute;
+    display: none;
+    top: 348px;
+    right: 575px; 
+}
+
+
+#error-tooltip span{ 
+    margin: 12px;
+   
+}
+
+#tooltip-1{
+    
+    opacity: 0;
+    height: 120px;
+    width: 140px;
+    right: 740px;
+    top: 28px;
+    
+}
+
+#tooltip-2{
+    opacity: 0;
+    height: 75px;
+    width: 130px;
+    right: 798px;
+    top: 154px;
+    z-index: 9999;
+
+}
+#tooltip-3{
+    opacity: 0;
+    height: 70px;
+    width: 120px;
+    right: 820px;
+    top: 242px;
+    z-index: 9999;
+}
+#tooltip-4{
+    opacity: 0;
+    height: 65px;
+    width: 140px;
+    right: 692px;
+    top: 323px;
+    z-index: 9999;
+
+}
+
+.modal-content{
+    top: 80px;
+    right: 50px;
+    height: 400px;
+    width: 600px !important;
+    padding: 25px;
+
+}
+.modal-footer{
+    margin-top: 50px;
+}
